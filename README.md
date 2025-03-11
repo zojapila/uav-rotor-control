@@ -161,7 +161,7 @@ Some additional functions can be found in the linked documentation.
 
 ### But why?
 
-[:loudspeaker: Bad joke alert]
+[📢 Bad joke alert]
 Because you want to pass the subject and get your degree, right?
 
 ### I started the Gazebo, but simulator window did not pop up
