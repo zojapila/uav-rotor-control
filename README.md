@@ -113,6 +113,16 @@ Note that this is added to `~/.bashrc` so that it is automatically sourced when 
 For your convenience, the default ROS log path has been changed to `~/ros2_ws/src/logs`.
 This will allow you to access them from outside the container.
 
+### Data exchange between PX4 and ROS
+
+In order to communicate with PX4 from ROS, it is necessary to open the special bridge with MicorXRCEAgent:
+
+```bash
+MicroXRCEAgent udp4 -p 8888
+```
+
+You can read more about this in the [PX4 documentation](https://docs.px4.io/v1.15/en/ros2/user_guide.html#setup-micro-xrce-dds-agent-client).
+
 ## Additional features
 
 ### QGroundControl
