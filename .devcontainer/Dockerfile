@@ -77,7 +77,6 @@ WORKDIR /home/developer/ros2_ws
 
 # Add ROS2 setup to bashrc
 RUN echo ". /opt/ros/$ROS_DISTRO/setup.bash" >> ~/.bashrc \
-    && echo ". /home/developer/ros2_ws/install/setup.bash" >> ~/.bashrc \
-    && echo "export ROS_LOCALHOST_ONLY=1" >> ~/.bashrc
+    && echo ". /home/developer/ros2_ws/install/setup.bash" >> ~/.bashrc 
 
 CMD [ "sleep", "infinity" ]

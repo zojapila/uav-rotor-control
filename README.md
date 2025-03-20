@@ -38,7 +38,7 @@ In terminal inside docker container, run:
 
 ```bash
 cd /home/developer/ros2_ws
-./setup.sh
+source ./setup.sh <id>
 ./build.sh
 source install/setup.bash
 ```
