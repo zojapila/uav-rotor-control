@@ -1,0 +1,6 @@
+ros2 topic echo /fmu/out/vehicle_odometry
+
+px4> commander takeoff
+
+ros2 run px4_ros_com offboard_control
+https://docs.px4.io/main/en/ros2/offboard_control.html
